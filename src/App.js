@@ -1,9 +1,5 @@
 import "./App.css";
-import {
-  createBrowserRouter,
-  HashRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
@@ -26,7 +22,7 @@ import SearchContextProvider from "./Components/Context/SearchContext";
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 
 function App() {
-  let router = HashRouter([
+  let router = createBrowserRouter([
     {
       path: "/",
       element: <Layout />,
