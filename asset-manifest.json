@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TheMoviesDB/static/css/main.f010342a.css",
-    "main.js": "/TheMoviesDB/static/js/main.5695facc.js",
+    "main.js": "/TheMoviesDB/static/js/main.ed967155.js",
     "static/js/787.a5c6e71b.chunk.js": "/TheMoviesDB/static/js/787.a5c6e71b.chunk.js",
     "static/media/fa-solid-900.ttf": "/TheMoviesDB/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/fa-brands-400.ttf": "/TheMoviesDB/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
@@ -14,11 +14,11 @@
     "static/media/fa-v4compatibility.woff2": "/TheMoviesDB/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/TheMoviesDB/index.html",
     "main.f010342a.css.map": "/TheMoviesDB/static/css/main.f010342a.css.map",
-    "main.5695facc.js.map": "/TheMoviesDB/static/js/main.5695facc.js.map",
+    "main.ed967155.js.map": "/TheMoviesDB/static/js/main.ed967155.js.map",
     "787.a5c6e71b.chunk.js.map": "/TheMoviesDB/static/js/787.a5c6e71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f010342a.css",
-    "static/js/main.5695facc.js"
+    "static/js/main.ed967155.js"
   ]
 }
