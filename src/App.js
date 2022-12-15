@@ -1,5 +1,5 @@
 import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
@@ -20,9 +20,10 @@ import MediaContextProvider from "./Components/Context/MediaContext";
 import MoivieDetails from "./Components/MovieDetails/MovieDetails";
 import SearchContextProvider from "./Components/Context/SearchContext";
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
+import MovieDetail from "./Components/MovieDetail/MovieDetail";
 
 function App() {
-  let router = createBrowserRouter([
+  let router = createHashRouter([
     {
       path: "/",
       element: <Layout />,
@@ -72,6 +73,14 @@ function App() {
           element: (
             <ProtectedRoute>
               <MoivieDetails />
+            </ProtectedRoute>
+          ),
+        },
+        {
+          path: "moviedetail/:id/:media_type",
+          element: (
+            <ProtectedRoute>
+              <MovieDetail/>
             </ProtectedRoute>
           ),
         },

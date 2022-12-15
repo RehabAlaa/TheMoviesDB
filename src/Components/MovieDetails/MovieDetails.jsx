@@ -118,7 +118,7 @@ export default function MovieDetails() {
 
             {similar.slice(0, 10).map((movie, index) => (
               <div key={index} className="col-md-2">
-                <a href={`/moviedetails/${movie.id}/${media_type}`}>
+                <Link to={`/moviedetail/${movie.id}/${media_type}`}>
                   <div className="movie position-relative overflow-hidden">
                     {movie.poster_path ? (
                       <img
@@ -160,7 +160,7 @@ export default function MovieDetails() {
                     {movie.title}
                     {movie.name}
                   </h2>
-                </a>
+                </Link>
                 {/* </Link> */}
               </div>
             ))}
