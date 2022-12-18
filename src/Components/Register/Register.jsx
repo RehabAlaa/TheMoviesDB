@@ -172,7 +172,7 @@ export default function Register() {
 
           <small className="text-danger">
             {errorList.filter((error) => error.context.label === "password")[0]
-              ? '"password" should start with uppercase the form 3 and 8 characters lowercase'
+              ? '"password" should be uppercase characters or lowercase characters or numbers'
               : ""}
           </small>
           <br />
